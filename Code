@@ -1,0 +1,24 @@
+#lines 2,3 are conversion from miles to feet
+def miles_to_feet(miles):
+    return 5280 * miles 
+ 
+#lines 6,7 are same as 2,3 but miles to kilometers
+def miles_to_kilometers(kilometers):
+    return 1.60934 * kilometers
+ 
+#lines below are for defining the test input
+def MileTest(miles):
+    print(str(miles) + " miles equals")
+    print(str(miles_to_feet(miles)) + " feet")
+    print("")
+#print("") is for output spacing
+ 
+def KilometerTest(kilometers):
+    print(str(kilometers) + " miles equals")
+    print(str(miles_to_kilometers(kilometers)) + " kilometers")
+    print("")
+ 
+#lines below are input
+MileTest(1.2356)
+KilometerTest(1.0985)
+ 
